@@ -6,6 +6,7 @@ find_path(OPENCV_CONTRIB_IMG_PROC
         disparity_filter.hpp
         PATHS
         /usr/include/opencv2/ximgproc
+        /usr/local/opencv3/include/opencv2/ximgproc
         /usr/local/include/opencv2/ximgproc
         /opt/local/include/opencv2/ximgproc
         /sw/include/opencv2/ximgproc
@@ -18,6 +19,7 @@ find_path(OPENCV_VIZ
         viz3d.hpp
         PATHS
         /usr/include/opencv2/viz
+        /usr/local/opencv3/include/opencv2/viz
         /usr/local/include/opencv2/viz
         /opt/local/include/opencv2/viz
         /sw/include/opencv2/viz
